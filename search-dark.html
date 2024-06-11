@@ -1,0 +1,186 @@
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suche</title>
+
+<link rel="shortcut icon" type="strawberry-icon" href="strawberry-icon.png">
+
+<link rel="manifest" href="manifest-dark.json">
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+</script>
+<style>
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: darkgray;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: orange;
+  color: white;
+}
+
+body
+{
+background: black;
+}
+
+.background
+{
+
+}
+
+.headline
+{
+text-align: center;
+color:red;
+}
+
+.button
+{
+width: 75%;
+height: 40px;
+background: orange;
+}
+
+.info
+{
+color: white;
+}
+
+</style>
+</head>
+<body>
+<font size="4">
+<div class="background" align=center>
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="start-dark.html" class="active">strawberry</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+
+<br>
+    <a href="serch-bright.html">Design</a>
+<br>
+    <a href="home-dark.html">home</a>
+    <a href="...">...</a>
+    <a href="...">...</a>
+    <a href="...">...</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<br>
+
+<font size="4">
+<div class="headline">
+<h1>
+Suche
+</h1>
+</div>
+</font>
+
+<font size="4">
+<div class="button">
+<a href=https://www.startpage.com/de/> <h2>Startpage</h2> </a>
+</div>
+</font>
+
+<font size="4">
+<div class="button">
+<a href=https://www.google.de/> <h2>Google</h2> </a>
+</div>
+</font>
+
+<font size="4">
+<div class="button">
+<a href=https://de.search.yahoo.com/> <h2>Yahoo</h2> </a>
+</div>
+</font>
+
+<font size="4">
+<div class="button">
+<a href=https://www.bing.com/?cc=de> <h2>Bing</h2> </a>
+</div>
+</font>
+
+<font size="4">
+<div class="button">
+<a href=https://duckduckgo.com/> <h2>DuckDuckGo</h2> </a>
+</div>
+</font>
+
+<font size="4">
+<div class="button">
+<a href=https://yandex.com/> <h2>Yandex</h2> </a>
+</div>
+</font>
+
+<font size="4">
+<div class="button">
+<a href=https://suche.aol.de/> <h2>AOL</h2> </a>
+</div>
+</font>
+
+<br>
+
+<div class="info">
+<h4>Info: Hier findest du auch etwas unbekanntere Suchmaschinen</h4>
+</div>
+
+</font>
+
+</div>
+</body>
+</html>
